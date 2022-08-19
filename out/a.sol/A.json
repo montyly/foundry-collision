@@ -1,0 +1,91 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "bar",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50606580601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea264697066735822122018c210ba839c922bab702b35f944b7ebfba452c85a2d260643f871c3253c0c8764736f6c634300080f0033",
+    "sourceMap": "0:38:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea264697066735822122018c210ba839c922bab702b35f944b7ebfba452c85a2d260643f871c3253c0c8764736f6c634300080f0033",
+    "sourceMap": "0:38:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;13:23;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "bar()": "febb0f7e"
+  },
+  "ast": {
+    "absolutePath": "src/inner/a.sol",
+    "id": 6,
+    "exportedSymbols": {
+      "A": [
+        5
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:39:0",
+    "nodes": [
+      {
+        "id": 5,
+        "nodeType": "ContractDefinition",
+        "src": "0:38:0",
+        "nodes": [
+          {
+            "id": 4,
+            "nodeType": "FunctionDefinition",
+            "src": "13:23:0",
+            "body": {
+              "id": 3,
+              "nodeType": "Block",
+              "src": "34:2:0",
+              "statements": []
+            },
+            "functionSelector": "febb0f7e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bar",
+            "nameLocation": "22:3:0",
+            "parameters": {
+              "id": 1,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "25:2:0"
+            },
+            "returnParameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "34:0:0"
+            },
+            "scope": 5,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "A",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "A",
+        "nameLocation": "9:1:0",
+        "scope": 6,
+        "usedErrors": []
+      }
+    ]
+  },
+  "id": 0
+}
