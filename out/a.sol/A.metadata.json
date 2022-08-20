@@ -26,7 +26,7 @@
   },
   "settings": {
     "compilationTarget": {
-      "src/inner/a.sol": "A"
+      "src/inner/A.sol": "A"
     },
     "evmVersion": "london",
     "libraries": {},
@@ -43,7 +43,7 @@
     ]
   },
   "sources": {
-    "src/inner/a.sol": {
+    "src/inner/A.sol": {
       "keccak256": "0x516a86aa5a2fef7c6b91516604e4138bc368fca94bb83fa3d5e02ddabf69f1b1",
       "urls": [
         "bzz-raw://5bdf43e43a58718ca52b2b4eb25257014feb5ae2e620ae4c67adb533ebe97fea",

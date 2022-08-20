@@ -9,42 +9,42 @@
     }
   ],
   "bytecode": {
-    "object": "0x6080604052348015600f57600080fd5b50606580601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea264697066735822122018c210ba839c922bab702b35f944b7ebfba452c85a2d260643f871c3253c0c8764736f6c634300080f0033",
-    "sourceMap": "0:38:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "object": "0x6080604052348015600f57600080fd5b50606580601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea26469706673582212209744c794a0330c988b2ddb06eada35dc3620bd834d0e96a6a9c7a470d450a06a64736f6c634300080f0033",
+    "sourceMap": "0:38:9:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea264697066735822122018c210ba839c922bab702b35f944b7ebfba452c85a2d260643f871c3253c0c8764736f6c634300080f0033",
-    "sourceMap": "0:38:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;13:23;",
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063febb0f7e14602d575b600080fd5b00fea26469706673582212209744c794a0330c988b2ddb06eada35dc3620bd834d0e96a6a9c7a470d450a06a64736f6c634300080f0033",
+    "sourceMap": "0:38:9:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;13:23;",
     "linkReferences": {}
   },
   "methodIdentifiers": {
     "bar()": "febb0f7e"
   },
   "ast": {
-    "absolutePath": "src/inner/a.sol",
-    "id": 6,
+    "absolutePath": "src/inner/A.sol",
+    "id": 21611,
     "exportedSymbols": {
       "A": [
-        5
+        21610
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:39:0",
+    "src": "0:39:9",
     "nodes": [
       {
-        "id": 5,
+        "id": 21610,
         "nodeType": "ContractDefinition",
-        "src": "0:38:0",
+        "src": "0:38:9",
         "nodes": [
           {
-            "id": 4,
+            "id": 21609,
             "nodeType": "FunctionDefinition",
-            "src": "13:23:0",
+            "src": "13:23:9",
             "body": {
-              "id": 3,
+              "id": 21608,
               "nodeType": "Block",
-              "src": "34:2:0",
+              "src": "34:2:9",
               "statements": []
             },
             "functionSelector": "febb0f7e",
@@ -52,20 +52,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "bar",
-            "nameLocation": "22:3:0",
+            "nameLocation": "22:3:9",
             "parameters": {
-              "id": 1,
+              "id": 21606,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "25:2:0"
+              "src": "25:2:9"
             },
             "returnParameters": {
-              "id": 2,
+              "id": 21607,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "34:0:0"
+              "src": "34:0:9"
             },
-            "scope": 5,
+            "scope": 21610,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -78,14 +78,14 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          5
+          21610
         ],
         "name": "A",
-        "nameLocation": "9:1:0",
-        "scope": 6,
+        "nameLocation": "9:1:9",
+        "scope": 21611,
         "usedErrors": []
       }
     ]
   },
-  "id": 0
+  "id": 9
 }
